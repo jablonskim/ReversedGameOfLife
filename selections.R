@@ -20,5 +20,30 @@ tournament_selection <- function(k, population, fitness, tournament_size)
 
 proportional_selection <- function(k, population, fitness, tournament_size)
 {
-  # TODO
+  max_fit <- fitness[[which.max(fitness)]]
+  sum_fit <- 0
+  
+  for(i in 1:k)
+  {
+    sum_fit <- sum_fit + (max_fit - fitness[[i]]) + 1
+  }
+  
+  rand_val <- runif(1, 0, sum_fit)
+  curr <- 0
+  os <- 0
+  
+  for(i in 1:k)
+  {
+    curr <- curr + (max_fit - fitness[[i]]) + 1
+    if(curr > rand_val)
+    {
+      os <- population[[i]]
+      break
+    }
+  }
+  
+  if(length(os) < 2)
+    print("err")
+  
+  os
 }

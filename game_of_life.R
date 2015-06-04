@@ -31,7 +31,7 @@ reverse <- function(final_board, steps_range, population_size)
   tournament_size <- 3
   
   crossover <- uniform_crossover
-  selection <- tournament_selection
+  selection <- proportional_selection
   
   population <- initialize(population_size, n, m)
   population_fitness <- fitness_of_population(population_size, population, final_board, steps_range)
@@ -62,7 +62,7 @@ reverse <- function(final_board, steps_range, population_size)
     population_fitness <- ret$Fit
     
     min_fit <- population_fitness[[which.min(population_fitness)]]
-    print(min_fit)
+    cat(sprintf("%4d: %d\n", s, min_fit))
     if(min_fit == 0)
       break
   }

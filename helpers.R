@@ -10,7 +10,13 @@ create_random_gol <- function(board_size, no_steps)
   gameOfLife(size = board_size, steps = no_steps)
 }
 
-get_random1_gol <- function()
+get_random1_gol_6x6 <- function()
+{
+  #tmp_beta <- rep(beta, 1)
+  matrix(c(0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0), 6, 6)
+}
+
+get_random2_gol_6x6 <- function()
 {
   
 }

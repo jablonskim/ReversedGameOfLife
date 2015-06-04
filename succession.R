@@ -6,8 +6,11 @@ succession <- function(population_size, population, population_fitness, new_pop_
   k <- population_size - new_pop_size
   ndx <- order(unlist(population_fitness))[1:k]
   
-  final_pop <- append(final_pop, population[ndx])
-  final_fit <- append(final_fit, population_fitness[ndx])
+  if(k > 0)
+  {
+    final_pop <- append(final_pop, population[ndx])
+    final_fit <- append(final_fit, population_fitness[ndx])
+  }
   
   list(Pop = final_pop, Fit = final_fit)
 }
