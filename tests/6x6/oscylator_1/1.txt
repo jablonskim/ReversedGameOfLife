@@ -1,0 +1,5 @@
+Populacja: 10
+Prawdopodobieństwo mutacji: 0.002
+Prawdopodobieństwo krzyżowania: 0
+Selekcja: ruletkowa
+Sukcesja: 0

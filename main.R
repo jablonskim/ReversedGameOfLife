@@ -7,9 +7,9 @@
 
   board_size <- c(6, 6)
   steps_range <- c(5, 10)
-  population_size <- 5
+  population_size <- 10
 
-  beta <- get_random1_gol_6x6() # create_random_gol(board_size, 8)
+  beta <- get_oscilator1_gol_6x6() # create_random_gol(board_size, 8)
   plot_gol(beta)
   beta
 

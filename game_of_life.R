@@ -25,8 +25,8 @@ reverse <- function(final_board, steps_range, population_size)
   n <- nrow(final_board)
   m <- ncol(final_board)
   
-  mutation_prob <- 0.5
-  crossover_prob <- 0.7
+  mutation_prob <- 0.002
+  crossover_prob <- 0
   succession_rate <- 0
   tournament_size <- 3
   
@@ -37,7 +37,7 @@ reverse <- function(final_board, steps_range, population_size)
   population_fitness <- fitness_of_population(population_size, population, final_board, steps_range)
   new_pop_size <- population_size - succession_rate
   
-  for(s in 1:500)
+  for(s in 1:1000)
   {
     new_population <- list()
     
