@@ -25,8 +25,8 @@ reverse <- function(final_board, steps_range, population_size)
   n <- nrow(final_board)
   m <- ncol(final_board)
   
-  mutation_prob <- 0.002
-  crossover_prob <- 0
+  mutation_prob <- 0.1
+  crossover_prob <- 0.7
   succession_rate <- 0
   tournament_size <- 3
   

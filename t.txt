@@ -1,0 +1,39 @@
+Plansze:
+  - losowa1
+  - losowa2
+  - oscylator1
+  - oscylator2
+  - glider gun
+
+Rozmiar:
+  - 6x6
+  - 10x10
+  - 20x20
+
+Wielkość populacji:
+  - 10
+  - 25
+  - 100
+
+Prawdopodobieństwo mutacji:
+  - 0.002
+  - 0.01
+  - 0.1
+  - 0.25
+
+Prawdopodobieństwo krzyżowania:
+  - 0
+  - 0.3
+  - 0.7
+
+Krzyżowanie:
+  - jednopunktowe
+  - równomierne
+
+Typ selekcji
+  - ruletkowa
+  - turniejowa
+
+Sukcesja:
+  - 0
+  - 1
