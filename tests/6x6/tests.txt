@@ -35,7 +35,7 @@ Prawdopodobieństwo krzyżowania: 0.3
 Selekcja: ruletkowa
 Sukcesja: 0
 
-Nazwa: 3
+Nazwa: 6
 Populacja: 10
 Prawdopodobieństwo mutacji: 0.1
 Prawdopodobieństwo krzyżowania: 0.7
