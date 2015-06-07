@@ -7,7 +7,7 @@
 
   board_size <- c(6, 6)
   steps_range <- c(5, 10)
-  population_size <- 10
+  population_size <- 25
 
   beta <- get_random2_gol_6x6() # create_random_gol(board_size, 8)
   plot_gol(beta)

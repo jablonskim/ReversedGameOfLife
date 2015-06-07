@@ -71,3 +71,30 @@ Prawdopodobieństwo mutacji: 0.1
 Prawdopodobieństwo krzyżowania: 0.7
 Selekcja: ruletkowa
 Sukcesja: 0
+
+Wybrane krzyżowanie: 0.3 bo podobne efekty a nie mamy czasu na badanie 0.7
+Wybrana wielkość populacji: 25 - podobne efekty i szybciej się liczy
+
+Nazwa: 11
+Populacja: 25
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.7
+Selekcja: ruletkowa
+Sukcesja: 1
+
+Nie wybieramy sukcesji elitarnej bo zmniejsza coś tam (wariancję?)
+
+Nazwa: 12
+Populacja: 25
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.7
+Selekcja: turniejowa (3 osobniki)
+Sukcesja: 0
+
+Nazwa: 13
+Populacja: 25
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.7
+KRZYŻOWANIE JEDNOPUNKTOWE
+Selekcja: ruletkowa
+Sukcesja: 0
