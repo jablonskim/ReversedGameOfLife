@@ -44,3 +44,30 @@ Sukcesja: 0
 
 Krzyżowanie: 0.3/0.7
 
+Nazwa: 7
+Populacja: 25
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.3
+Selekcja: ruletkowa
+Sukcesja: 0
+
+Nazwa: 8
+Populacja: 25
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.7
+Selekcja: ruletkowa
+Sukcesja: 0
+
+Nazwa: 9
+Populacja: 100
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.3
+Selekcja: ruletkowa
+Sukcesja: 0
+
+Nazwa: 10
+Populacja: 100
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.7
+Selekcja: ruletkowa
+Sukcesja: 0
