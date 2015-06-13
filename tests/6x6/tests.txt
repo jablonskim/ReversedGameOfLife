@@ -78,7 +78,7 @@ Wybrana wielkość populacji: 25 - podobne efekty i szybciej się liczy
 Nazwa: 11
 Populacja: 25
 Prawdopodobieństwo mutacji: 0.1
-Prawdopodobieństwo krzyżowania: 0.7
+Prawdopodobieństwo krzyżowania: 0.3
 Selekcja: ruletkowa
 Sukcesja: 1
 
@@ -87,14 +87,24 @@ Nie wybieramy sukcesji elitarnej bo zmniejsza coś tam (wariancję?)
 Nazwa: 12
 Populacja: 25
 Prawdopodobieństwo mutacji: 0.1
-Prawdopodobieństwo krzyżowania: 0.7
+Prawdopodobieństwo krzyżowania: 0.3
 Selekcja: turniejowa (3 osobniki)
 Sukcesja: 0
+
+Niby lepsza w oscylatorze 2, ale teoretycznie chyba lepsza powinna być ruletkowa
 
 Nazwa: 13
 Populacja: 25
 Prawdopodobieństwo mutacji: 0.1
-Prawdopodobieństwo krzyżowania: 0.7
+Prawdopodobieństwo krzyżowania: 0.3
 KRZYŻOWANIE JEDNOPUNKTOWE
+Selekcja: ruletkowa
+Sukcesja: 0
+
+
+Nazwa: 50
+Populacja: 25
+Prawdopodobieństwo mutacji: 0.1
+Prawdopodobieństwo krzyżowania: 0.3
 Selekcja: ruletkowa
 Sukcesja: 0

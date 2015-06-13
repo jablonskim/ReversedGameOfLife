@@ -27,17 +27,17 @@ reverse <- function(final_board, steps_range, population_size)
   
   mutation_prob <- 0.1
   crossover_prob <- 0.3
-  succession_rate <- 0
+  succession_rate <- 1
   tournament_size <- 3
   
   crossover <- uniform_crossover
-  selection <- tournament_selection
+  selection <- proportional_selection
   
   population <- initialize(population_size, n, m)
   population_fitness <- fitness_of_population(population_size, population, final_board, steps_range)
   new_pop_size <- population_size - succession_rate
   
-  for(s in 1:1000)
+  for(s in 1:2000)
   {
     new_population <- list()
     
